@@ -75,6 +75,7 @@ Itt a felhasználó a menüpont számának beírásával ki tudja választani,  
 - „Uj termek feltoltese” menüpont: Itt a felhasználó a console interfészen megjelent kérésekre a megfelelő választ adva egy terméket tud hozzáadni a saját termékeit tartalmazó listához. 
 - „Termekek listazasa” menüpont: Kiválasztásával az összes eddig feltöltött és azóta nem törölt termékek jelennek meg. 
 - „Termek torlese” menüpont: A menüpont kiválasztása majd az adott sorszámú termék előtti  számjegy  bevitelével  ki  lehet  választani,  hogy  melyik  terméket  szeretné eltávolítani a listából. A törlés után a termék visszaállítása nem lehetséges. 
+
 ![](05.png)
 - „Adatok  módosítása”  menüpont:  Ez  a  menüpont  mindkét  típusú  felhasználónál ugyanolyan.  A  megfelelő  sorszámú  menüpont  után  lehetőség  van  az  eddigi kiválasztott adat felülírására, amely lehet a név, jelszó, telefonszám, email-cím. Az eladó és vevő típus módosítására nincs lehetőség. 
 - Vevőként  pedig  az  alábbiak  közül  tud  választani:  „Termek  keresese”,  „Elado  keresese”, „Adatok modositasa”.  
