@@ -46,6 +46,7 @@ A szoftver külső adatbázisként használt szövegfájlban tárolja a különb
 <a name="_page2_x33.00_y48.92"></a>*Terv*
 
 ![](01.jpeg)
+
 ***A szoftver főbb algoritmusai:*** 
 
 Tár feltöltési algoritmus: A heterogén tároló amely a megadott eladó(felhasználó)- hoz kapcsolódik egy beágyazott rendezőalgoritmus alapján adja hozzá a megadott pointer alapú Terméket az a listájához. Ez a rendezőalgoritmus DatumIdo szerint rendezi a hozzáadni kívánt Terméket. Belső működése indexeltolás alapú. 
