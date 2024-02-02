@@ -6,7 +6,9 @@
 
 Tartalom 
 
-[***Specifikáció*** ....................................................................................................................................................................... 2 ](#_page0_x33.00_y260.92)[***Terv*** ................................................................................................................................................................................... 3 ](#_page2_x33.00_y48.92)[***Felhasználói útmutató*** ..................................................................................................................................................... 5 ](#_page4_x33.00_y48.92)
+[***Specifikáció*** ](#_page0_x33.00_y260.92)
+[***Terv*** ](#_page2_x33.00_y48.92)
+[***Felhasználói útmutató*** ](#_page4_x33.00_y48.92)
 
 *Specifikáció* 
 
@@ -59,22 +61,27 @@ A szövegfájlba kiírás analóg módon történik a szövegfájlba való beír
 
 Számítástechnikai terméknyilvántartó program segítségével könnyebben és gyorsabban egymásra találnak a vevő és az eladó fél, ezáltal több termék talál új gazdára rövid időn belül. A szoftverben a bevitelnél a szóköz helyett „\_” (alsóvonalat) kell használni. 
 
-Az  alkalmazás  megnyitása  után  a  következő  menü  jelenik  meg  a  ![](02.png)felhasználó előtt a console interfészen:  
+Az  alkalmazás  megnyitása  után  a  következő  menü  jelenik  meg  a  felhasználó előtt a console interfészen:  
+![](02.png)
 
 Itt a felhasználó a menüpont számának beírásával ki tudja választani,  hogy a „Regisztráció”, „Belépés” vagy „Kilépés” menüpontot szeretné  a továbbiakban használni.  
 
-- Az 1. „Regisztráció” menüpont választása után a  ![](03.png)felhasználónak meg kell adnia nevét, ezek után  jelszavát,  telefonszámát,  ami  a  06  utáni  számjegyekből állhat, majd email címét, és hogy  eladóként vagy vevőként szándékozik használni  az alkalmazást. Ha az adott felhasználónév már szerepel a nyilvántartásban, akkor ezt a program jelzi. A  sikeres  regisztrálást  a  program  jelzi  a  használója  felé.  Sikertelenség  esetén  újra  próbálkozhat.  A regisztrációs idő automatikusan mentésre kerül.
-- a 2. „Belepes” menüpontot választva a console interfészen  ![](04.png)meg kell adni a regisztrációkor használt nevet, és az ahhoz  tartozó  jelszót.  Ha  sikeres  a  belépés,  A  program  jelzi  a  felhasználónak. Sikertelenség esetén újra próbálkozhat.  
-- A „Belepes” menüpontot követően, ha a felhasználó  ![](05.png)
+- Az 1. „Regisztráció” menüpont választása után a felhasználónak meg kell adnia nevét, ezek után  jelszavát,  telefonszámát,  ami  a  06  utáni  számjegyekből állhat, majd email címét, és hogy  eladóként vagy vevőként szándékozik használni  az alkalmazást. Ha az adott felhasználónév már szerepel a nyilvántartásban, akkor ezt a program jelzi. A  sikeres  regisztrálást  a  program  jelzi  a  használója  felé.  Sikertelenség  esetén  újra  próbálkozhat.  A regisztrációs idő automatikusan mentésre kerül.
+![](03.png)
+- a 2. „Belepes” menüpontot választva a console interfészen meg kell adni a regisztrációkor használt nevet, és az ahhoz  tartozó  jelszót.  Ha  sikeres  a  belépés,  A  program  jelzi  a  felhasználónak. Sikertelenség esetén újra próbálkozhat.  
+ ![](04.png)
+- A „Belepes” menüpontot követően, ha a felhasználó 
 - Eladóként  lépett  be  akkor  meg  kell  adnia  a  megfelelő  menüpont  kiválasztásával  a  továbbiakban szándékozott műveletet. Itt tud  választani az „Uj termek feltöltese”, „Termekek  listazasa”,  „Termek  torlese”,  „Adatok  modositasa” közül. 
 - „Uj termek feltoltese” menüpont: Itt a felhasználó a console interfészen megjelent kérésekre a megfelelő választ adva egy terméket tud hozzáadni a saját termékeit tartalmazó listához. 
 - „Termekek listazasa” menüpont: Kiválasztásával az összes eddig feltöltött és azóta nem törölt termékek jelennek meg. 
 - „Termek torlese” menüpont: A menüpont kiválasztása majd az adott sorszámú termék előtti  számjegy  bevitelével  ki  lehet  választani,  hogy  melyik  terméket  szeretné eltávolítani a listából. A törlés után a termék visszaállítása nem lehetséges. 
+ ![](05.png)
 - „Adatok  módosítása”  menüpont:  Ez  a  menüpont  mindkét  típusú  felhasználónál ugyanolyan.  A  megfelelő  sorszámú  menüpont  után  lehetőség  van  az  eddigi kiválasztott adat felülírására, amely lehet a név, jelszó, telefonszám, email-cím. Az eladó és vevő típus módosítására nincs lehetőség. 
-- Vevőként  pedig  az  alábbiak  közül  tud  ![](06.png)választani:  „Termek  keresese”,  „Elado  keresese”, „Adatok modositasa”.  
+- Vevőként  pedig  az  alábbiak  közül  tud  választani:  „Termek  keresese”,  „Elado  keresese”, „Adatok modositasa”.  
 - „Termek  keresese”  menüpont:  Itt  a  felhasználó  ki  tudja  választani,  hogy  milyen típúsú termékeket szeretne megtekinteni az adataival együtt amelyek a név, ár hírdető neve, és elérhetősége. A következő típusú termékekre lehet szűrni: pc, laptop, okostelefon, nyomtató, egér, billentyűzet, más eszköz. 
 - „Elado keresese” menüpont: Itt a megfelelő név megadásával megjelenik az adott eladó elérhatőségei, neve, és a hozzá rendelt termékek száma. 
 - „Adatok  módosítása”  menüpont:  ugyanolyan,  mint  az  eladónál  bemutatott  menü felépítése. 
+![](06.png)
 
 Mindkét  felhasználótípus  (eladó/vevő),  az  utolsó  menüpontjának  segítségével  ki  tud  lépni  a főmenübe. 
 
