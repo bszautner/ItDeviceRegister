@@ -43,8 +43,9 @@ Specifikáció: használt/új termék, termék típusa, termék márkája, term�
 
 A szoftver külső adatbázisként használt szövegfájlban tárolja a különböző termékek részleteit, adatait, így menthető az aktuálisan frissített nyilvántartás. Ebből az adatbázisfájlból az applikáció a következő indításkor betölti a szereplő termékeket, és ismét jogosult a felhasználó használni a programot. 
 
-<a name="_page2_x33.00_y48.92"></a>*Terv ![](01.jpeg)*
+<a name="_page2_x33.00_y48.92"></a>*Terv*
 
+![](01.jpeg)
 ***A szoftver főbb algoritmusai:*** 
 
 Tár feltöltési algoritmus: A heterogén tároló amely a megadott eladó(felhasználó)- hoz kapcsolódik egy beágyazott rendezőalgoritmus alapján adja hozzá a megadott pointer alapú Terméket az a listájához. Ez a rendezőalgoritmus DatumIdo szerint rendezi a hozzáadni kívánt Terméket. Belső működése indexeltolás alapú. 
