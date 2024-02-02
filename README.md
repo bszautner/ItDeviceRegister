@@ -90,4 +90,4 @@ Itt a felhasználó a menüpont számának beírásával ki tudja választani,  
 Mindkét  felhasználótípus  (eladó/vevő),  az  utolsó  menüpontjának  segítségével  ki  tud  lépni  a főmenübe. 
 
 Az applikáció a főmenüből való program által támogatott („Kilépés menüpont”) kilépés után elmentésre kerülnek az adatok egy külső adatbázisként használt .txt kiterjesztésű szövegfájlban. A program újboli megnyitása során ezek az adatok hiánytalanul betöltődnek, így a felhasználók az applikációt úgy tudják használni ismét, mintha le sem állították volna. 
-6<a name="_page0_x33.00_y260.92"></a> 
+<a name="_page0_x33.00_y260.92"></a> 
